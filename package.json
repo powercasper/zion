@@ -1,0 +1,19 @@
+{
+  "name": "zion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "zion rulles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdiachenko/zion.git"
+  },
+  "author": "Serhii Diachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdiachenko/zion/issues"
+  },
+  "homepage": "https://github.com/sdiachenko/zion#readme"
+}
