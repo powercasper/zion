@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .rowHeader {
+        background-color: #e3efe4;
+        font-size: 24;
+      }
+
+      .subHeader {
+        font-size: 20;
+        background-color: #E6E6E6;
+      }
+
+      .passed {
+        color: #047c02;
+      }
+
+      .failed {
+        color: #a01503;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="rowHeader">
+        <td colspan=2>Fuzzball</td>
+      </tr>
+      {{ #fuzzball.failures }}
+      <tr>
+        <td colspan=2 class=failed>{{ fullTitle }}</td>
+      </tr>
+      {{ /fuzzball.failures }}
+      {{ #fuzzball.passes }}
+      <tr>
+        <td colspan=2 class=passed>{{ fullTitle }}</td>
+      </tr>
+      {{ /fuzzball.passes }}
+      <tr class="rowHeader">
+        <td colspan=2>Postman</td>
+      </tr>
+      {{ #newman }}
+      <tr class="subHeader">
+        <td colspan=2>Collection: {{ collection.name }}</td>
+      </tr>
+      <tr>
+        <td>Total Requests</td>
+        <td>{{ run.stats.requests.total }}</td>
+      </tr>
+      <tr>
+        <td>Total Assertions</td>
+        <td>{{ run.stats.assertions.total }}</td>
+      </tr>
+      <tr>
+        <td>Failed Assertions</td>
+        <td>{{ run.stats.assertions.failed }}</td>
+      </tr>
+      {{ /newman }}
+    </table>
+  </body>
+</html>

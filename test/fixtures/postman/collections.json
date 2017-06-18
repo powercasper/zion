@@ -1,0 +1,16 @@
+{
+    "collections": [
+        {
+            "id": "973b953c-b81c-4439-b699-04e804f030b0",
+            "name": "Testable Feature",
+            "owner": "111111",
+            "uid": "uid456"
+        },
+        {
+            "id": "621048d7-6d96-42c1-884f-c8b7b97ee1fc",
+            "name": "Untestable Feature",
+            "owner": "111111",
+            "uid": "uid789"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "522cb759-38f5-49ee-ade9-27d7911ff54d",
+            "description": "",
+            "name": "Untestable Feature",
+            "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+        },
+        "item": [
+            {
+                "_postman_id": "3354c3fd-a2aa-4428-836e-dfacf7fd2997",
+                "event": [],
+                "name": "Test An Endpoint",
+                "request": {
+                    "body": {
+                        "formdata": [],
+                        "mode": "formdata"
+                    },
+                    "description": "",
+                    "header": [],
+                    "method": "GET",
+                    "url": "{{some_host}}/some_path.json"
+                },
+                "response": []
+            }
+        ],
+        "variables": []
+    }
+}

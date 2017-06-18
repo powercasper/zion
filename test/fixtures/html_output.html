@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .rowHeader {
+        background-color: #e3efe4;
+        font-size: 24;
+      }
+
+      .subHeader {
+        font-size: 20;
+        background-color: #E6E6E6;
+      }
+
+      .passed {
+        color: #047c02;
+      }
+
+      .failed {
+        color: #a01503;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="rowHeader">
+        <td colspan=2>Fuzzball</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=failed>Standsheets: at a new location for a new event: new orders submitted live &quot;before each&quot; hook for &quot;should increment the sold count&quot;</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=failed>Standsheets: at a new location for a new event: new order with x2 line item multiple submitted live &quot;before each&quot; hook for &quot;should increment the sold count by 2&quot;</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=failed>Standsheets: at a new location for a new event: refunded orders &quot;before all&quot; hook</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=failed>Standsheets: a newly created standsheet at new location &quot;before all&quot; hook</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Terminals place an order and the terminal with deviceSerialNumber is created in licensing should match the same deviceSerialNumber</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have fuzzball as its device name</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have &quot;terminalTest&quot; as its model number</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have a last_checked_in_at date</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Terminals updates the last_checked_in_at date on order create fetches new terminals and stuff</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted live should exist</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted live should have a UUID</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted live should be closed</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted offline &#x2F; batch should exist</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted offline &#x2F; batch should have a UUID</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted offline &#x2F; batch should be closed</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Orders: at new location: submitted offline &#x2F; batch should have the same created_at time that was submitted</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Payments manually entered credit card payments reach the credit card processor should exist</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Payments manually entered credit card payments reach the credit card processor should have a UUID</td>
+      </tr>
+      <tr>
+        <td colspan=2 class=passed>Payments manually entered credit card payments reach the credit card processor should have a status message</td>
+      </tr>
+      <tr class="rowHeader">
+        <td colspan=2>Postman</td>
+      </tr>
+      <tr class="subHeader">
+        <td colspan=2>Collection: Feature Flip</td>
+      </tr>
+      <tr>
+        <td>Total Requests</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Total Assertions</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>Failed Assertions</td>
+        <td>0</td>
+      </tr>
+      <tr class="subHeader">
+        <td colspan=2>Collection: Auth Server</td>
+      </tr>
+      <tr>
+        <td>Total Requests</td>
+        <td>47</td>
+      </tr>
+      <tr>
+        <td>Total Assertions</td>
+        <td>78</td>
+      </tr>
+      <tr>
+        <td>Failed Assertions</td>
+        <td>0</td>
+      </tr>
+    </table>
+  </body>
+</html>
