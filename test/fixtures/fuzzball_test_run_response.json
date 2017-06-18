@@ -1,0 +1,269 @@
+{
+    "failures": [
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {
+                "message": "Cannot read property 'id' of undefined",
+                "stack": "TypeError: Cannot read property 'id' of undefined\n    at Context.<anonymous> (spec/standsheets/standsheet-sales.js:85:41)"
+            },
+            "fullTitle": "Standsheets: at a new location for a new event: new orders submitted live \"before each\" hook for \"should increment the sold count\"",
+            "title": "\"before each\" hook for \"should increment the sold count\""
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {
+                "message": "Cannot read property 'id' of undefined",
+                "stack": "TypeError: Cannot read property 'id' of undefined\n    at Context.<anonymous> (spec/standsheets/standsheet-sales.js:146:41)"
+            },
+            "fullTitle": "Standsheets: at a new location for a new event: new order with x2 line item multiple submitted live \"before each\" hook for \"should increment the sold count by 2\"",
+            "title": "\"before each\" hook for \"should increment the sold count by 2\""
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {
+                "message": "Cannot read property 'id' of undefined",
+                "stack": "TypeError: Cannot read property 'id' of undefined\n    at Context.<anonymous> (spec/standsheets/standsheet-sales.js:211:41)"
+            },
+            "fullTitle": "Standsheets: at a new location for a new event: refunded orders \"before all\" hook",
+            "title": "\"before all\" hook"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 15004,
+            "err": {
+                "message": "timeout of 15000ms exceeded. Ensure the done() callback is being called in this test.",
+                "stack": "Error: timeout of 15000ms exceeded. Ensure the done() callback is being called in this test."
+            },
+            "fullTitle": "Standsheets: a newly created standsheet at new location \"before all\" hook",
+            "title": "\"before all\" hook"
+        }
+    ],
+    "passes": [
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should match the same deviceSerialNumber",
+            "title": "should match the same deviceSerialNumber"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have fuzzball as its device name",
+            "title": "should have fuzzball as its device name"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have \"terminalTest\" as its model number",
+            "title": "should have \"terminalTest\" as its model number"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have a last_checked_in_at date",
+            "title": "should have a last_checked_in_at date"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 6208,
+            "err": {},
+            "fullTitle": "Terminals updates the last_checked_in_at date on order create fetches new terminals and stuff",
+            "title": "fetches new terminals and stuff"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should be closed",
+            "title": "should be closed"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should be closed",
+            "title": "should be closed"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should have the same created_at time that was submitted",
+            "title": "should have the same created_at time that was submitted"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should have a status message",
+            "title": "should have a status message"
+        }
+    ],
+    "pending": [],
+    "stats": {
+        "duration": 64309,
+        "end": "2016-11-02T16:36:03.296Z",
+        "failures": 4,
+        "passes": 15,
+        "pending": 0,
+        "start": "2016-11-02T16:34:58.987Z",
+        "suites": 16,
+        "tests": 15
+    },
+    "tests": [
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should match the same deviceSerialNumber",
+            "title": "should match the same deviceSerialNumber"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have fuzzball as its device name",
+            "title": "should have fuzzball as its device name"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have \"terminalTest\" as its model number",
+            "title": "should have \"terminalTest\" as its model number"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Terminals place an order and the terminal with deviceSerialNumber is created in licensing should have a last_checked_in_at date",
+            "title": "should have a last_checked_in_at date"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 6208,
+            "err": {},
+            "fullTitle": "Terminals updates the last_checked_in_at date on order create fetches new terminals and stuff",
+            "title": "fetches new terminals and stuff"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted live should be closed",
+            "title": "should be closed"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should be closed",
+            "title": "should be closed"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Orders: at new location: submitted offline / batch should have the same created_at time that was submitted",
+            "title": "should have the same created_at time that was submitted"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should exist",
+            "title": "should exist"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 0,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should have a UUID",
+            "title": "should have a UUID"
+        },
+        {
+            "currentRetry": 0,
+            "duration": 1,
+            "err": {},
+            "fullTitle": "Payments manually entered credit card payments reach the credit card processor should have a status message",
+            "title": "should have a status message"
+        }
+    ]
+}

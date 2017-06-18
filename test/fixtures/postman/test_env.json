@@ -1,0 +1,101 @@
+{
+    "environment": {
+        "id": "43fe36b0-f7b0-21e5-873f-243e7ae7d7b8",
+        "name": "Test",
+        "values": [
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "some_host",
+                "name": "some_host",
+                "type": "text",
+                "value": "http://localhost:9938"
+            },
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "api_host",
+                "name": "api_host",
+                "type": "text",
+                "value": "https://api.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "auth_host",
+                "name": "auth_host",
+                "type": "text",
+                "value": "https://auth.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "sv_gateway_host",
+                "name": "sv_gateway_host",
+                "type": "text",
+                "value": "https://stored-value.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "flippy_host",
+                "name": "flippy_host",
+                "type": "text",
+                "value": "https://feature-flip.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "hovered": false,
+                "key": "licensing_host",
+                "type": "text",
+                "value": "https://api-licensing.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "standsheets_host",
+                "type": "text",
+                "value": "https://standsheets.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "bucks_host",
+                "type": "text",
+                "value": "https://bucks.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "zuul_host",
+                "type": "text",
+                "value": "https://zuul.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "bypasslane_host",
+                "type": "text",
+                "value": "https://bypasslane.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "kaiser_host",
+                "type": "text",
+                "value": "https://kaiser.bypassmobile.com",
+                "warning": ""
+            },
+            {
+                "enabled": true,
+                "key": "Testable Collections",
+                "type": "text",
+                "value": "Testable Feature"
+            }
+        ]
+    }
+}

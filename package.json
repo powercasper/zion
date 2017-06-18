@@ -1,10 +1,47 @@
 {
-  "name": "zion",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Zion app manges low, medium and ui runner. Saving test results in AWS DynamoDb",
+  "main": "http_server.js",
+  "dependencies": {
+    "async": "^2.4.0",
+    "aws-sdk": "^2.6.14",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.17.1",
+    "config": "^1.26.1",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "extend": "^3.0.0",
+    "grpc": "^1.3.1",
+    "mailgun-js": "^0.7.12",
+    "mustache": "^2.2.1",
+    "newman": "~3.2.0",
+    "newrelic": "^1.39.1",
+    "node-schedule": "^1.2.0",
+    "passport": "^0.3.2",
+    "protobufjs": "^5.0.0",
+    "raven": "^2.0.2",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "time": "^0.11.4",
+    "uuid": "^3.0.1",
+    "ws": "^3.0.0",
+    "yargs": "^6.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "mocha": "^3.2.0",
+    "nark_messaging": "^1.0.1",
+    "nock": "^9.0.2"
+  },
   "scripts": {
-    "test": "zion rulles"
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --ui tdd",
+    "start": "node http_server.js",
+    "cron": "node http_server.js --run-once"
   },
   "repository": {
     "type": "git",

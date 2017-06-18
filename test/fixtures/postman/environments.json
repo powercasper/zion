@@ -1,0 +1,10 @@
+{
+    "environments": [
+        {
+            "id": "eae2e554-1648-450c-94b0-390204d735a9",
+            "name": "Test",
+            "owner": "1111111",
+            "uid": "uid123"
+        }
+    ]
+}

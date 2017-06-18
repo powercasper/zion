@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package zion_messaging;
+
+service RunAndReport {
+  rpc RunTests (Request) returns (stream Reply) {}
+}
+
+message Request {
+  string collections = 1;
+  string env = 2;
+  string filter = 3;
+  string exclude = 4;
+}
+
+message Reply {
+  Stats stats = 1;
+  repeated Tests tests = 2;
+}
+
+message Stats {
+  string suites = 1;
+  int32 tests = 2;
+  int32 passes = 3;
+  int32 pending = 4;
+  int32 failures = 5;
+}
+
+message Tests {
+  string test_id = 1;
+  string title = 2;
+  string full_title = 3;
+  string url = 4;
+  string error = 5;
+  int32 response_time = 6;
+  string runner = 7;
+}
